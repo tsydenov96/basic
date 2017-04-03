@@ -38,8 +38,8 @@ class AdType extends \yii\db\ActiveRecord
     public function attributeLabels()
     {
         return [
-            'ad_type_id' => 'Ad Type ID',
-            'ad_type' => 'Ad Type',
+            'ad_type_id' => 'ID Типа ',
+            'ad_type' => 'Тип рекламы',
         ];
     }
 

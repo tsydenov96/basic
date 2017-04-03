@@ -38,8 +38,8 @@ class OrganizationType extends \yii\db\ActiveRecord
     public function attributeLabels()
     {
         return [
-            'organization_type_id' => 'Organization Type ID',
-            'organization_type_name' => 'Organization Type Name',
+            'organization_type_id' => 'ID Типа организации',
+            'organization_type_name' => 'Название типа организации',
         ];
     }
 

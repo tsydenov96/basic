@@ -38,8 +38,8 @@ class StreetType extends \yii\db\ActiveRecord
     public function attributeLabels()
     {
         return [
-            'street_type_id' => 'Street Type ID',
-            'street_type' => 'Street Type',
+            'street_type_id' => 'ID Типа улицы',
+            'street_type' => 'Тип улицы',
         ];
     }
 

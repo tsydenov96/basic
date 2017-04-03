@@ -42,9 +42,9 @@ class Address extends \yii\db\ActiveRecord
     public function attributeLabels()
     {
         return [
-            'address_id' => 'Address ID',
-            'street_type_id' => 'Street Type ID',
-            'address' => 'Address',
+            'address_id' => 'ID адреса',
+            'street_type_id' => 'ID типа улицы',
+            'address' => 'Адрес',
         ];
     }
 

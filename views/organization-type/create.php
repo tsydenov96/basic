@@ -6,8 +6,8 @@ use yii\helpers\Html;
 /* @var $this yii\web\View */
 /* @var $model app\models\OrganizationType */
 
-$this->title = 'Create Organization Type';
-$this->params['breadcrumbs'][] = ['label' => 'Organization Types', 'url' => ['index']];
+$this->title = 'Ввод типа организации';
+$this->params['breadcrumbs'][] = ['label' => 'Тип организаций', 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="organization-type-create">

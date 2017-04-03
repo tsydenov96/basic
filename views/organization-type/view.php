@@ -7,7 +7,7 @@ use yii\widgets\DetailView;
 /* @var $model app\models\OrganizationType */
 
 $this->title = $model->organization_type_id;
-$this->params['breadcrumbs'][] = ['label' => 'Organization Types', 'url' => ['index']];
+$this->params['breadcrumbs'][] = ['label' => 'Тип организации', 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="organization-type-view">

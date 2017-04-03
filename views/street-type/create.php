@@ -6,8 +6,8 @@ use yii\helpers\Html;
 /* @var $this yii\web\View */
 /* @var $model app\models\StreetType */
 
-$this->title = 'Create Street Type';
-$this->params['breadcrumbs'][] = ['label' => 'Street Types', 'url' => ['index']];
+$this->title = 'Создатние типа улицы';
+$this->params['breadcrumbs'][] = ['label' => 'Тип улицы', 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="street-type-create">
